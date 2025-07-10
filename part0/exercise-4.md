@@ -1,5 +1,6 @@
-sequenceDiagram  
-  participant browser  
+```mermaid
+sequenceDiagram
+  participant browser
   participant server
 
   browser->>server: POST https://studies.cs.helsinki.fi/exampleapp/new_note
@@ -23,3 +24,4 @@ sequenceDiagram
   activate server
   server->>browser: data.json
   deactivate server
+```
